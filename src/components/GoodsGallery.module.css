@@ -1,0 +1,6 @@
+.goodsGalleryContainer {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    gap: 2%;
+}

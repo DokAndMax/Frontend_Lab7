@@ -1,0 +1,23 @@
+.goodsCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    border: solid;
+    overflow: hidden;
+}
+
+.goodsCardImage {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 200px;
+}
+
+.goodsCardTitle {
+    text-align: center;
+}
+
+.goodsCardPrice {
+    text-align: right;
+}

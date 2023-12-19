@@ -1,6 +1,6 @@
 function ImageControlButton({ description, onClick }) {
     return (
-        <button onClick={onClick}>{description}</button>
+        <button onClick={onClick} style={{margin: 6}}>{description}</button>
     );
 }
 
