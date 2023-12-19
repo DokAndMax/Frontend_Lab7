@@ -1,4 +1,3 @@
-// Компонент GoodsGallery, який відображає список товарів у вигляді галереї
 import React from 'react';
 import GoodsCard from './GoodsCard';
 import styles from './GoodsGallery.module.css';
