@@ -7,9 +7,11 @@ import React from "react";
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header name="Кривенок Максим Геннадійович"/>
       <Content/>
-      <Image/>
+      <Image url="https://kyivcity.gov.ua/"
+             src="KyivStreet.jpg"
+             alt="Вулиця Києва"/>
     </div>
   );
 }
